@@ -1,0 +1,26 @@
+/* GLOBAL */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+section,
+header,
+aside,
+footer {
+  padding: 32px;
+}
+
+/* DOCUMENTATION */
+#documentation main {
+  padding-left: 20vw;
+}
+#documentation aside {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  /* height: calc(100vh - 100px); */
+}
